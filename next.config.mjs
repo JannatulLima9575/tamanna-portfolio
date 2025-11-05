@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   reactCompiler: true,
+  experimental: {
+    turbo: false, // এটা যোগ করো, Turbopack বন্ধ করার জন্য
+  },
 };
 
 export default nextConfig;
