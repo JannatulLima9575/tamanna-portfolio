@@ -1,0 +1,75 @@
+[33mcommit 0c73ea52f9f19532d14072c990935f5f1e88a0b7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 6b967c1 e4cc08e
+Author: Tamanna Akter <astamanna57@gmail.com>
+Date:   Tue Nov 11 20:17:38 2025 +0600
+
+    Merge pull request #1 from JannatulLima9575/main
+    
+    added polishing
+
+[33mcommit e4cc08eff860fb815a1aceacc4b8298996ccc797[m
+Merge: ecfdaa0 6b967c1
+Author: Tamanna Akter <astamanna57@gmail.com>
+Date:   Tue Nov 11 20:17:25 2025 +0600
+
+    Merge branch 'main' into main
+
+[33mcommit 6b967c1a0e2fa139c6794989315855400435bdaa[m
+Author: developerTamanna <astamanna57@gmail.com>
+Date:   Tue Nov 11 20:09:14 2025 +0600
+
+    some
+
+[33mcommit ecfdaa08e0f84014222980f8235ba904714ac292[m
+Author: Jannatul <limajannat1675@gmail.com>
+Date:   Tue Nov 11 15:59:14 2025 +0600
+
+    added polishing to about section
+
+[33mcommit d80806f07d8731605d082e7089e16fc6eb246a16[m
+Author: Jannatul <limajannat1675@gmail.com>
+Date:   Tue Nov 11 15:54:14 2025 +0600
+
+    added polishing to about section
+
+[33mcommit 1a7a815ee257ac77d369c613dd4d5fb57b86fb42[m
+Author: Jannatul <limajannat1675@gmail.com>
+Date:   Tue Nov 11 15:33:20 2025 +0600
+
+    added polishing to banner section and navbar section
+
+[33mcommit 8891d82c88fd3f02d7d70eee9ab023acca0866b9[m
+Author: developerTamanna <astamanna57@gmail.com>
+Date:   Thu Nov 6 20:36:46 2025 +0600
+
+    details page
+
+[33mcommit d27e5eac1f86d460ee55df7e41f13aaed4512c71[m
+Author: developerTamanna <astamanna57@gmail.com>
+Date:   Thu Nov 6 19:26:48 2025 +0600
+
+    linkup
+
+[33mcommit 54fd838ea286d75f4ee2156ea4709f3cece153b1[m
+Author: developerTamanna <astamanna57@gmail.com>
+Date:   Wed Nov 5 16:01:44 2025 +0600
+
+    design
+
+[33mcommit ff87212b117190307e87800150059422c60db6f0[m
+Author: developerTamanna <astamanna57@gmail.com>
+Date:   Wed Nov 5 15:46:03 2025 +0600
+
+    skill section
+
+[33mcommit e387ea26a228553d41d3a711c349d1aea5046a23[m
+Author: developerTamanna <astamanna57@gmail.com>
+Date:   Wed Nov 5 14:25:41 2025 +0600
+
+    layout
+
+[33mcommit fb32ea4f639cab5ca657bac65fddbd9ebe98af8a[m
+Author: developerTamanna <astamanna57@gmail.com>
+Date:   Wed Nov 5 11:31:11 2025 +0600
+
+    Initial commit from Create Next App
