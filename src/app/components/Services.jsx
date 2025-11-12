@@ -1,6 +1,6 @@
 import { FaCode, FaMobileAlt, FaPalette } from 'react-icons/fa';
 
-export default function Services() {
+export default function Services({ hideTitle = false }) {
   const services = [
     {
       icon: <FaCode />,
@@ -21,9 +21,13 @@ export default function Services() {
 
   return (
     <section id="services" className="py-20 px-8">
-      <h2 className="text-center text-5xl font-bold mb-12">
-        My <span className="text-[#007F73]">Services</span>
-      </h2>
+      {/* Conditional Title - শুধু show করবে যখন hideTitle false */}
+      {!hideTitle && (
+        <h2 className="text-center text-5xl font-bold mb-12">
+          My <span className="text-[#007F73]">Services</span>
+        </h2>
+      )}
+
       <div className="flex flex-wrap justify-center gap-8">
         {services.map((service, i) => (
           <div

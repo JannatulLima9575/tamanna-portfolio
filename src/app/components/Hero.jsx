@@ -27,11 +27,10 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10 px-6 md:px-16 pt-28"
+      className="min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10 px-6 md:px-16 pt-12"
     >
       {/* Text Content */}
       <div className="max-w-xl text-center md:text-left">
-        {/* light grey title */}
         <h3 className="text-3xl font-bold text-gray-400">Hello, Myself</h3>
 
         <h1 className="text-5xl md:text-5xl font-extrabold mt-2 text-gray-900">
@@ -87,14 +86,15 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Download CV Button */}
+        {/* Download Resume Button */}
         <a
-          href="#"
+          href="/Tamanna Akter Full-Stack Resume.pdf"
+          download="Tamanna-Akter-Full-Stack-Resume.pdf"
           className="inline-block mt-6 bg-teal-700 text-white py-3 px-8 rounded-full
           font-semibold shadow-md hover:shadow-[0_0_20px_rgba(5,150,105,0.8)]
           transition duration-500"
         >
-          Download CV
+          Download Resume
         </a>
       </div>
 

@@ -64,7 +64,7 @@ const AnimatedSkills = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-teal-700 mb-3">
+          <h2 className="text-3xl sm:text-5xl font-bold text-teal-700 mb-3">
             Skills & Expertise
           </h2>
           <div className="w-16 h-0.5 bg-[#007F73] mx-auto"></div>

@@ -43,7 +43,7 @@ const projectsData = [
 const Projects = () => {
   return (
     <section id="projects" className="bg-[#d5fdf9] py-20 px-4 md:px-12">
-      <h2 className="text-4xl font-bold text-center mb-20">
+      <h2 className="text-5xl font-bold text-center mb-20">
         My <span className="text-teal-600">Projects</span>
       </h2>
 
