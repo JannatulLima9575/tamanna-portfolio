@@ -14,9 +14,9 @@ const projectsData = [
     image: '/p1.jpg',
     description:
       'A versatile platform where users can discover, manage, and review various services with a smooth interface.',
-    frontend: '#',
+    frontend: 'https://github.com/developerTamanna/services-stores-client',
     backend: '#',
-    live: '#',
+    live: 'https://services-store-app.web.app/',
   },
   {
     id: 2,
@@ -24,9 +24,9 @@ const projectsData = [
     image: '/project2.png',
     description:
       'A modern matrimony website that helps individuals find their ideal match with privacy and powerful search filters.',
-    frontend: '#',
-    backend: '#',
-    live: '#',
+    frontend: 'https://github.com/developerTamanna/matrimony-platform-client',
+    backend: 'https://github.com/developerTamanna/matrimony-platform-server',
+    live: 'https://matrimony-platform-df764.web.app/',
   },
   {
     id: 3,
@@ -68,17 +68,32 @@ const Projects = () => {
             </p>
 
             <div className="flex flex-wrap justify-center gap-3 mt-6">
-              <button className="px-6 py-2 rounded-lg bg-teal-600 text-white hover:bg-transparent hover:text-teal-600 hover:border-teal-600 border transition flex items-center gap-2">
+              <a
+                href={project.frontend}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-lg bg-teal-600 text-white hover:bg-transparent hover:text-teal-600 hover:border-teal-600 border transition flex items-center gap-2"
+              >
                 <FaCode /> Frontend
-              </button>
+              </a>
 
-              <button className="px-6 py-2 rounded-lg bg-teal-600 text-white hover:bg-transparent hover:text-teal-600 hover:border-teal-600 border transition flex items-center gap-2">
+              <a
+                href={project.backend}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-lg bg-teal-600 text-white hover:bg-transparent hover:text-teal-600 hover:border-teal-600 border transition flex items-center gap-2"
+              >
                 <FaServer /> Backend
-              </button>
+              </a>
 
-              <button className="px-6 py-2 rounded-lg bg-teal-600 text-white hover:bg-transparent hover:text-teal-600 hover:border-teal-600 border transition flex items-center gap-2">
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-lg bg-teal-600 text-white hover:bg-transparent hover:text-teal-600 hover:border-teal-600 border transition flex items-center gap-2"
+              >
                 <FaExternalLinkAlt /> Live
-              </button>
+              </a>
 
               <Link
                 href={`/projects/${project.id}`}
