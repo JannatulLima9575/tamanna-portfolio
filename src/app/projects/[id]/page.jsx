@@ -7,7 +7,7 @@ const projectsData = [
     title: 'Services-Stores',
     images: ['/p1.jpg', '/p1-mobile.jpg'],
     description:
-      '“Services-Stores” is a modern platform where users can discover, manage, and review various services effortlessly. The design focuses on user experience, responsive layout, and real-time interaction.',
+      '“Services-Stores” is a modern platform where users can discover, manage, and review various services effortlessly. The design focuses on user experience, responsive layout, and real-time interaction. and.',
     technologies: [
       'React.js',
       'Tailwind CSS',
