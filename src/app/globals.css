@@ -8,3 +8,11 @@ body {
   @apply bg-white text-black scroll-smooth;
 }
 
+.input-field {
+  @apply w-full border border-[#007F73] rounded-lg px-4 py-3
+         text-sm text-gray-700 outline-none
+         focus:ring-2 focus:ring-[#007F73]/40
+         focus:border-[#007F73]
+         transition-all duration-200;
+}
+

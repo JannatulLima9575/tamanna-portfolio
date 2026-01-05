@@ -82,7 +82,7 @@ export default function Activities() {
                   src={item.image}
                   alt={item.title}
                   fill
-                  className="object-cover hover:scale-105 transition-transform duration-500"
+                  className="object-cover transition-transform duration-500"
                   sizes="(max-width: 768px) 100vw, 50vw"
                   priority={index === 0}
                 />
