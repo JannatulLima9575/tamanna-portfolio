@@ -84,7 +84,7 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-[#f9fafb] py-24">
       {/* same width as navbar/hero */}
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
+      <div className="max-w-7xl mx-auto px-6 md:px-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           Selected <span className="text-[#007F73]">Projects</span>
         </h2>
